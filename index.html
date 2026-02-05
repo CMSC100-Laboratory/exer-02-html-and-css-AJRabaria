@@ -1,90 +1,81 @@
 <!DOCTYPE html>
-
 <html>
-  <head>
-    <title>AJ's Git Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="flex.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio Card</title>
 
-  </head>
+  
 
-  <body>
-    
-    <nav>
-    <div class="nav_bar" >
-        <div class="flex-item" style="flex: 1">
-            <a href="/html/">HTML/CSS</a> 
-        </div>
-      <div class="flex-item" style="flex: 1">
-            <a href="/js/">JavaScript</a>
-        </div>
-        <div class="flex-item" style="flex: 1">
-            <a href="/python/">Python</a>
-        </div>
-    </div>
-    </nav>
+  <!-- External CSS -->
+  <link rel="stylesheet" href="flex.css">
+</head>
 
-    <div class="flex-container">
-        <div class="flex-item" style="flex: 2;">
-            <h1>1</h1>
-            <p>This is a paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 2;">
-            <h1>2</h1>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 2;">
-            <h1>3</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 2;">
-            <h1>4</h1>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 2;">
-            <h1>5</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 2;">
-            <h1>6</h1>
-            <p>This is another paragraph</p>
-        </div>
-    </div>
-    <div class="flex-container2">
-        <div class="flex-item" style="flex: 3;">
-            <h1>1</h1>
-            <p>This is a paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 3;">
-            <h1>2</h1>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 2;">
-            <h1>3</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 4;">
-            <h1>4</h1>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 3;">
-            <h1>5</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 1;">
-            <h1>6</h1>
-            <p>This is another paragraph</p>
-        </div>
-    </div>
-  </body>
+<body>
 
+<div class="wrapper">
+  <div class="card">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+      <div class="avatar">
+      	<img src = "pfp.jpg" alt = "mypfp" width="300" height="150">
+
+      </div>
+
+      <h3 class="name">Aaron Joacheim M. Rabaria</h3>
+      
+
+      <div class="info">
+        <div>Email: amrabaria@up.edu.ph</div>
+        <div>Contact: 09399393828</div>
+        <div></div>
+        <div></div>
+      </div>
+
+    </aside>
+
+
+    <!-- Content -->
+    <main class="content">
+
+      <h2>About Me</h2>
+      <div class="yellow-line"></div>
+
+      <p>
+        I am a BS Computer Science Student of UPLB
+      </p>
+
+      <h2>Projects done</h2>
+
+      <div class="services">
+
+        <div class="service">
+          <h4>Python</h4>
+          <p>Created a Recipe Inventory System</p>
+        </div>
+
+        <div class="service">
+          <h4>Java</h4>
+          <p>Created a Hospital Management System</p>
+        </div>
+
+        <div class="service">
+          <h4>C</h4>
+          <p>Made FLAMES, a name game calculator</p>
+        </div>
+
+        <div class="service">
+          <h4>Assembly</h4>
+          <p>Typed "Hello World</p>
+        </div>
+
+      </div>
+
+    </main>
+  </div>
+</div>
+
+</body>
 </html>
