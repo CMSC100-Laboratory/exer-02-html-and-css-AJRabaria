@@ -128,14 +128,14 @@ p{
 }
 
 /* =============== SERVICES GRID =============== */
-.services{
+.container{
   display:grid;
   grid-template-columns:repeat(2, 1fr);
   gap:18px;
   margin-top:15px;
 }
 
-.service{
+.proj{
   background:#202020;
   padding:20px;
   border-radius:15px;
@@ -143,34 +143,15 @@ p{
   transition:.2s;
 }
 
-.service:hover{
-  transform:translateY(-4px);
-  border-color:#f6b93b;
-}
 
-.service h4{
+.proj h4{
   color:#fff;
   margin-bottom:8px;
 }
 
-.service p{
+.proj p{
   font-size:13px;
   color:#aaa;
 }
 
-/* =============== RESPONSIVE =============== */
-@media(max-width:900px){
 
-  .card{
-    flex-direction:column;
-  }
-
-  .sidebar{
-    width:100%;
-  }
-
-  .services{
-    grid-template-columns:1fr;
-  }
-
-}
