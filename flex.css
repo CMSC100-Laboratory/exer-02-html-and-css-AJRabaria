@@ -4,6 +4,7 @@
     border-width: 5px;
     border-color: red;
     flex-direction: row;
+     
 }
 
 .nav_bar {
@@ -12,6 +13,7 @@
     border-width: 5px;
     border-color: rgb(255, 0, 200);
     flex-direction: row;
+     margin-top: 150px;
 }
 
 .flex-container2 {
@@ -20,6 +22,7 @@
     border-width: 5px;
     border-color: rgb(0, 255, 51);
     flex-direction: row;
+
 }
 .flex-item {
     border-style: solid;
