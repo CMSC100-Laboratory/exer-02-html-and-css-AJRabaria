@@ -1,4 +1,4 @@
-/* =============== RESET =============== */
+
 *{
   margin:0;
   padding:0;
@@ -16,7 +16,7 @@ body{
   background-color: lightblue;
 }
 
-/* =============== MAIN WRAPPER =============== */
+
 .wrapper{
   width:1100px;
   max-width:95%;
@@ -34,7 +34,7 @@ body{
   overflow:hidden;
 }
 
-/* =============== SIDEBAR =============== */
+
 .sidebar{
   width:280px;
   background:#151515;
@@ -81,7 +81,7 @@ body{
   color:#bbb;
 }
 
-/* =============== CONTENT =============== */
+
 .content{
   flex:1;
   padding:35px;
@@ -127,7 +127,7 @@ p{
   margin-bottom:30px;
 }
 
-/* =============== SERVICES GRID =============== */
+
 .container{
   display:grid;
   grid-template-columns:repeat(2, 1fr);
